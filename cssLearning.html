@@ -1,49 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Learning </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Learning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-       body{
+      body {
         background-color: pink;
-       }
-       /* name selector */
-       /* p{
+      }
+      /* name selector */
+      /* p{
         color: blue;
        } */
-       #java{
+      #java {
         color: aliceblue;
         font-style: italic;
-       }
-       #skill{
+      }
+      #skill {
         color: cadetblue;
         font-style: italic;
-       }
-       .nonDevloper{
+      }
+      .nonDevloper {
         color: brown;
         font-style: oblique;
-       }
-       #java,.nonDevloper{
+      }
+      #java,
+      .nonDevloper {
         background-color: aquamarine;
-
-       }
-       #nm{
+      }
+      #nm {
         text-decoration: line-through;
         text-anchor: end;
         text-align: left;
         text-transform: capitalize;
-       }
+      }
+      #friends li {
+        list-style-type: upper-roman;
+      }
     </style>
-</head>
-<body>
-    <h2 style="color: red;background-color: grey;"> Profesional Summary</h2>
-    <p>I am UI devloper </p>
+  </head>
+  <body>
+    <h2 style="color: red; background-color: grey">Profesional Summary</h2>
+    <p>I am UI devloper</p>
     <p id="java">I am JAVA Devloper</p>
     <p class="nonDevloper">I am Test Engineer</p>
     <h2 id="skill">Skill</h2>
-    <p style="font-weight:bolder ;">html and css</p>
+    <p style="font-weight: bolder">html and css</p>
     <p>javascript</p>
     <p id="nm">i am learning css</p>
-</body>
+
+    <h2>List Of Friends</h2>
+    <ol id="friends">
+      <li>Jenny</li>
+      <li>Bill</li>
+      <li>Stew</li>
+      <li>Elon</li>
+    </ol>
+
+    <h2>Books I read</h2>
+    <ol>
+      <li>Autobiography of Yogi</li>
+      <li>Ikagai</li>
+      <li>Atomic Habit</li>
+      <li>Seven Habit</li>
+    </ol>
+    <span><i class="fa fa-user-o" aria-hidden="true"></i>Gemmy</span>
+  </body>
 </html>
